@@ -11,11 +11,12 @@ import BG_GRADIENT from "./assets/wave.png";
 
 const App = () => {
   return (
-    <div className="bg-[#FFF7F7]">
+    <div className="bg-[#c4dea4]">
       <div
         style={{
           backgroundImage: `url(${BG_GRADIENT})`,
           backgroundPosition: `50% 50%`,
+          backgroundSize:'cover',  
         }}
       >
         <Navbar />

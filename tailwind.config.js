@@ -12,12 +12,12 @@ export default {
     extend: {
       // Colors used in the project
       colors: {
-        primary: "#0F9DF8",
-        background: "#040B1C",
-        cardbg: "#061840",
+        primary: "#DAF7A6",
+        background: "#DAF7A6",
+        cardbg: "#DAF7A6",
         white:'#FBFBFB',
 
-        navbg:'#0A214E',
+        navbg:'#DAF7A6 ',
 
         overlayBg: 'rgba(0,0,0,70)',
       }

@@ -1,27 +1,27 @@
 export const PROFILE_DATA = {
   profilePicture: "https://via.placeholder.com/150",
-  name: "Kai Rodriguez",
-  tagline: `A full-stack developer passionate about creating innovative solutions and bridging technology with user-centric design.`,
-  jobTitle: "Senior Software Engineer",
-  location: "San Francisco, CA",
+  name: "Chillmelle John Chillhucom",
+  tagline: `Just a chill guy with a chill relationship with computer programming.`,
+  jobTitle: "Senior Chill Guy",
+  location: "San Chillcisco, CA",
   yearsOfExperience: 6,
   skills: [
-    "Python",
-    "Django",
-    "TypeScript",
-    "Vue.js",
-    "Docker",
-    "Kubernetes",
-    "GraphQL",
-    "AWS",
-    "MongoDB",
-    "Redis",
-    "SQL",
-    "CI/CD",
+    "Chillthon",
+    "Chilljango",
+    "ChillScript",
+    "Vue.chill",
+    "Chiller",
+    "Kubernechill",
+    "ChillQL",
+    "AWChill",
+    "MongoChillDB",
+    "Redichill",
+    "SQChill",
+    
   ],
-  email: "kai.rodriguez@techpro.com",
-  phone: "415-789-1234",
-  website: "https://www.linkedin.com/in/kairodriguez/",
+  email: "charmellejohn@gmail.com",
+  phone: "6969696996",
+  website: "https://www.chillmale.com",
 };
 
 export const SKILLS = [
@@ -94,6 +94,8 @@ export const ABOUT_ME_DATA = {
   projects: "Notable projects include a machine learning-powered recommendation system, a real-time collaboration platform, and a distributed data processing framework that improved system efficiency by 40%.",
   interests: "Beyond coding, I'm an avid rock climber, amateur photographer, and enjoy exploring the intersection of technology and sustainable design. I'm also passionate about mentoring young developers.",
   careerGoals: "My objective is to continue pushing the boundaries of software engineering, contribute to meaningful technological innovations, and make a positive impact through technology.",
+
+
 
   stats: {
     yearsOfExperience: '6+',

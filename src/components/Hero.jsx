@@ -16,7 +16,7 @@ const Hero = () => {
     yearsOfExperience,
     location,
     email,
-    skills,
+    skills,d
   } = PROFILE_DATA;
 
   return (
@@ -26,20 +26,20 @@ const Hero = () => {
     >
       <div className="flex-1 text-center md:text-left z-[1]">
         <span className="text-xs md:text-sm text-black font-thin">
-          A Bubble.io Developer
+          Just a chill guy.
         </span>
 
         <h2 className="text-3xl mt-3 md:text-5xl text-black md:mt-5">{name}</h2>
         <p className="w-full text-black text-xs font-light leading-5 my-6 lg:w-[38vw] md:text-sm md:leading-6 md:my-8">{tagline}</p>
 
-        <button className="primary-btn text-white" onClick={() => window.scrollTo({ top: document.getElementById('contact').offsetTop - 80, behavior: 'smooth' })}> Contact Me </button>
+        <button className="primary-btn text-green" onClick={() => window.scrollTo({ top: document.getElementById('contact').offsetTop - 80, behavior: 'smooth' })}> Contact Me </button>
 
 
 
       </div>
 
       <div className="flex gap-5 justify-center md:gap-3 lg:gap-5 z-[1]">
-        <div className="w-[403px] bg-gradient-to-br from-white-950 to-slate-900 rounded-lg border border-white-950 p-6">
+        <div className="w-[403px] bg-gradient-to-br from-white-950 to-slate-900 rounded-lg border border-green-950 p-6">
           <div className="flex items-center justify-center">
             <img className="hero-img" src={PROFILE_PIC} alt="img one" />
           </div>
@@ -70,7 +70,7 @@ const Hero = () => {
             {skills.map((item) => (
               <div
                 key={item}
-                className="text-[12px] text-black bg-blue-800/30 rounded md:text-xs px-3 py-1 "
+                className="text-[12px] text-black bg-green-800/30 rounded md:text-xs px-3 py-1 "
               >
                 {item}
               </div>
@@ -79,23 +79,23 @@ const Hero = () => {
 
 
           <div className="flex justify-center items-center gap-4 flex-wrap text-black">
-          <div className="bg-blue-800/30 p-2 rounded">
+          <div className="bg-green-800/30 p-2 rounded">
           <div className="flex justify-center items-center gap-4 flex-wrap text-black">
           
           <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-            <div className="bg-blue-800/30 p-2 rounded">
+            <div className="bg-green-800/30 p-2 rounded">
               <FaGithub className="text-lg md:text-xl" />
             </div>
           </a>
 
           <a href="https://www.linkedin.com/in/altheae-owe/" target="_blank" rel="noopener noreferrer">
-            <div className="bg-blue-800/30 p-2 rounded">
+            <div className="bg-green-800/30 p-2 rounded">
               <FaLinkedin size={20} />
             </div>
           </a>
 
           <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-            <div className="bg-blue-800/30 p-2 rounded">
+            <div className="bg-green-800/30 p-2 rounded">
               <FaXTwitter size={20} />
             </div>
           </a>

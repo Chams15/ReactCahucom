@@ -31,7 +31,7 @@ const Contact = () => {
           <h5 className="md:hidden text-cyan-300 text-lg font-medium mt-4 pb-5">
             Contact Form
           </h5>
-          <form className="flex flex-col" action= "formsparks_link_here">
+          <form className="flex flex-col" action= "https://submit-form.com/8dG4UNPrn">
             <input
               type="text"
               name="fullname"
@@ -59,7 +59,7 @@ const Contact = () => {
               autoComplete="off"
             ></textarea>
 
-            <button className="primary-btn text-white">SUBMIT</button>
+            <button className="primary-btn text-green">SUBMIT</button>
           </form>
         </div>
       </div>
@@ -69,7 +69,7 @@ const Contact = () => {
 
 const ContactInfoCard = ({ icon, text }) => {
   return (
-    <div className="flex items-center gap-5 bg-gradient-to-br from-blue-950 to-slate-900 rounded border border-blue-800/40 px-4 py-3 mb-5">
+    <div className="flex items-center gap-5 bg-gradient-to-br from-green-950 to-slate-900 rounded border border-green-800/40 px-4 py-3 mb-5">
       <div className="w-10 h-10 text-xl text-cyan-300 flex items-center justify-center bg-sky-950 rounded border border-cyan-700 ">
         {icon}
       </div>
